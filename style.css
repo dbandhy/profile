@@ -1,0 +1,87 @@
+body {
+  background-color:hsl(330, 42%, 90%);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+/* div */
+div {
+  border: 1px solid red;
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+/* Container */
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+/* Images */
+img {
+  width: 400px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.shadowed {
+  box-shadow: 5px 5px 3px rgb(84, 97, 94);
+}
+
+/* Headers */
+h1 {
+  color: rgb(76, 68, 68);
+}
+
+h2 {
+  color: rgb(53, 56, 55);
+  font-size: medium;
+  line-height: 12px;
+  align-content: center;
+}
+
+h2:hover {
+  color: orange;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  width: 500px;
+}
+
+/* List */
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
